@@ -43,3 +43,43 @@ button:active{
     font-family: monospace;
     font-weight: 600;
 }
+@media screen and (max-width:325px) {
+    h2{
+        font-size: 30px;
+    }
+    #agecalculateform{
+        font-size: 20px;
+        width: 95vw;
+        margin-left: 0;
+    }
+    #birthDate{
+    font-size: 10px;
+}
+    button{
+        font-size: 10px;
+    }
+    #result{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:767px){
+h2{
+    margin-top: 50px;
+    font-size: 30px;
+}
+#agecalculateform{
+    font-size: 20px;
+    width: 90%;
+    margin-left: 5px;
+    height: auto;
+}
+#birthDate{
+    font-size: 14px;
+}
+button{
+    font-size: 14px;
+}
+#result{
+    font-size: 40px;
+}
+}
