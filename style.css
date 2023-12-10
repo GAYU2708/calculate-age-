@@ -43,7 +43,7 @@ button:active{
     font-family: monospace;
     font-weight: 600;
 }
-@media screen and (max-width:325px) {
+@media screen and (max-width:325px){
     h2{
         font-size: 30px;
     }
